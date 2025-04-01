@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>todolist-backend</artifactId>
+	<artifactId>learningplatform</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>todolist-backend</name>
+	<name>learningplatform</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>
@@ -40,12 +40,6 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-
-		 <!-- Spring Data MongoDB dependency -->
-    	<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-data-mongodb</artifactId>
-    	</dependency>
 	</dependencies>
 
 	<build>
