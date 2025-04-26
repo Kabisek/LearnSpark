@@ -1,5 +1,6 @@
 package com.example.learningprogress.entity;
 
-public class ProgressStatus {
-
+public enum ProgressStatus {
+    IN_PROGRESS,
+    FINISHED
 }
