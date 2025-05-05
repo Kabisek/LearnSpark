@@ -87,4 +87,3 @@ public class LearningPlan {
         this.userId = userId;
     }
 }
-

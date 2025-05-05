@@ -1,19 +1,15 @@
 package com.example.learsaprk2.service;
 
-import com.example.learsaprk2.entity.LearningPlan;
-
-import com.example.learsaprk2.repository.LearningPlanRepository;
+import java.util.List;
 
 import org.springframework.stereotype.Service;
 
-import java.util.List;
-
-import org.springframework.beans.factory.annotation.Autowired;
+import com.example.learsaprk2.entity.LearningPlan;
+import com.example.learsaprk2.repository.LearningPlanRepository;
 
 @Service
 public class LearningPlanService {
 
-    @Autowired
     private final LearningPlanRepository repository;
 
     public LearningPlanService(LearningPlanRepository repository) {
@@ -42,17 +38,5 @@ public class LearningPlanService {
             throw new RuntimeException("LearningPlan not found with id: " + id);
         }
         repository.deleteById(id);
-    }
-
-    public LearningPlan updatePlan(String id, LearningPlan updatedPlan) {
-        LearningPlan existingPlan = repository.findById(id)
-                .orElseThrow(() -> new RuntimeException("LearningPlan not found with id: " + id));
-        existingPlan.setTitle(updatedPlan.getTitle());
-        existingPlan.setTopics(updatedPlan.getTopics());
-        existingPlan.setResources(updatedPlan.getResources());
-        existingPlan.setTargetDate(updatedPlan.getTargetDate());
-        existingPlan.setProgress(updatedPlan.getProgress());
-        existingPlan.setUserId(updatedPlan.getUserId());
-        return repository.save(existingPlan);
     }
 }
