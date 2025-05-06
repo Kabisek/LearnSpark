@@ -14,21 +14,23 @@ public class Post {
     @Id
     private String id;
     private String title;
-    private String content;
-    private String path;
+    private String description;
+    private List<String> mediaPaths;
     private LocalDateTime createdAt;
-    private LocalDateTime updatedAt;
+    private String userId;
+    private Set<String> likedBy = new HashSet<>();
 
     public Post() {
     }
 
-    public Post(String id, String title, String content, String path, LocalDateTime createdAt, LocalDateTime updatedAt) {
+    public Post(String id, String title, String description, List<String> mediaPaths, LocalDateTime createdAt, String userId, Set<String> likedBy) {
         this.id = id;
         this.title = title;
-        this.content = content;
-        this.path = path;
+        this.description = description;
+        this.mediaPaths = mediaPaths;
         this.createdAt = createdAt;
-        this.updatedAt = updatedAt;
+        this.userId = userId;
+        this.likedBy = likedBy;
     }
 
     public String getId() {
@@ -47,20 +49,20 @@ public class Post {
         this.title = title;
     }
 
-    public String getContent() {
-        return content;
+    public String getDescription() {
+        return description;
     }
 
-    public void setContent(String content) {
-        this.content = content;
+    public void setDescription(String description) {
+        this.description = description;
     }
 
-    public String getPath() {
-        return path;
+    public List<String> getMediaPaths() {
+        return mediaPaths;
     }
 
-    public void setPath(String path) {
-        this.path = path;
+    public void setMediaPaths(List<String> mediaPaths) {
+        this.mediaPaths = mediaPaths;
     }
 
     public LocalDateTime getCreatedAt() {
@@ -71,11 +73,19 @@ public class Post {
         this.createdAt = createdAt;
     }
 
-    public LocalDateTime getUpdatedAt() {
-        return updatedAt;
+    public String getUserId() {
+        return userId;
     }
 
-    public void setUpdatedAt(LocalDateTime updatedAt) {
-        this.updatedAt = updatedAt;
+    public void setUserId(String userId) {
+        this.userId = userId;
+    }
+
+    public Set<String> getLikedBy() {
+        return likedBy;
+    }
+
+    public void setLikedBy(Set<String> likedBy) {
+        this.likedBy = likedBy;
     }
 }
