@@ -1,4 +1,4 @@
-package com.learnspark.backend.entity;
+package com.example.learsaprk2.entity;
 
 import java.time.LocalDateTime;
 
