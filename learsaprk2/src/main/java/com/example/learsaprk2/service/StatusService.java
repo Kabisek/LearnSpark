@@ -1,7 +1,8 @@
-package com.example.learningprogress.service;
+package com.example.learsaprk2.service;
 
-import com.example.learningprogress.entity.LearningStatus;
-import com.example.learningprogress.repository.StatuslearRepository;
+import com.example.learsaprk2.entity.LearningStatus;
+import com.example.learsaprk2.repository.StatuslearRepository;
+
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDateTime;

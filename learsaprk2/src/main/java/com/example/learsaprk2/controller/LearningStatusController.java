@@ -1,7 +1,7 @@
-package com.example.learningprogress.controller;
+package com.example.learsaprk2.controller;
 
-import com.example.learningprogress.entity.LearningStatus;
-import com.example.learningprogress.service.StatusService;
+import com.example.learsaprk2.entity.LearningStatus;
+import com.example.learsaprk2.service.StatusService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

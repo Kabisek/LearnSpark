@@ -1,4 +1,4 @@
-package com.example.learningprogress.entity;
+package com.example.learsaprk2.entity;
 
 public enum ProgressStatus {
     IN_PROGRESS,

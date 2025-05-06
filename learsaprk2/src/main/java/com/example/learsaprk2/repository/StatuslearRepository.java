@@ -1,7 +1,8 @@
-package com.example.learningprogress.repository;
+package com.example.learsaprk2.repository;
 
-import com.example.learningprogress.entity.LearningStatus;
 import org.springframework.data.mongodb.repository.MongoRepository;
+
+import com.example.learsaprk2.entity.LearningStatus;
 
 import java.time.LocalDateTime;
 import java.util.List;
