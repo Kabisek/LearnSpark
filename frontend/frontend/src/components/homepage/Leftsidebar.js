@@ -1,3 +1,5 @@
+
+
 import React from 'react';
 import { Box, Typography, Button, Tooltip, IconButton } from '@mui/material';
 import { useNavigate, Link, useLocation } from 'react-router-dom';
@@ -23,7 +25,7 @@ export default function Leftsidebar() {
   const isActive = (path) => location.pathname === path;
 
   const navItems = [
-    { icon: <Home />, text: "Home", path: "/home" },
+    { icon: <Home />, text: "Home", path: "/" },
     { icon: <AutoGraph />, text: "Learning Paths", path: "/learning-plans" },
     { icon: <Person />, text: "Profile", path: "/profile" },
   ];
@@ -122,7 +124,7 @@ export default function Leftsidebar() {
           <Typography
             variant="h5"
             component={Link}
-            to="/home"
+            to="/"
             sx={{
               fontFamily: 'Inter, sans-serif',
               textDecoration: 'none',
