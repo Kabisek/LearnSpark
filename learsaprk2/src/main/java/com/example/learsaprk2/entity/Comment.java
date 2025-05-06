@@ -1,4 +1,4 @@
-package com.example.comment.entity;
+package com.example.learsaprk2.entity;
 
 import java.time.LocalDateTime;
 

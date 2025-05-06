@@ -1,8 +1,9 @@
-package com.example.comment.service;
+package com.example.learsaprk2.service;
 
 
-import com.example.comment.entity.Comment;
-import com.example.comment.repository.CommentRepository;
+import com.example.learsaprk2.entity.Comment;
+import com.example.learsaprk2.repository.CommentRepository;
+
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDateTime;

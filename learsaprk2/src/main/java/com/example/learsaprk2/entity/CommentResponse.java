@@ -1,5 +1,4 @@
-package com.example.comment.entity;
-
+package com.example.learsaprk2.entity;
 
 public class CommentResponse {
 
@@ -27,4 +26,3 @@ public class CommentResponse {
         this.user = user;
     }
 }
-

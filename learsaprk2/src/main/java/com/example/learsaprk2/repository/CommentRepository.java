@@ -1,9 +1,10 @@
-package com.example.comment.repository;
+package com.example.learsaprk2.repository;
 
 
 
-import com.example.comment.entity.Comment;
 import org.springframework.data.mongodb.repository.MongoRepository;
+
+import com.example.learsaprk2.entity.Comment;
 
 public interface CommentRepository extends MongoRepository<Comment, String> {
 }

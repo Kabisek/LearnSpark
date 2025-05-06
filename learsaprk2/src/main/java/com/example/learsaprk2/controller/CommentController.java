@@ -1,8 +1,8 @@
-package com.example.comment.controller;
+package com.example.learsaprk2.controller;
 
 
-import com.example.comment.entity.Comment;
-import com.example.comment.service.CommentService;
+import com.example.learsaprk2.entity.Comment;
+import com.example.learsaprk2.service.CommentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
