@@ -1,13 +1,13 @@
-package com.example.postmanagement.controller;
+package com.example.learsaprk2.controller;
 
-import com.example.postmanagement.entity.Post;
-import com.example.postmanagement.entity.PostResponse;
-import com.example.postmanagement.repository.PostRepository;
-import com.example.postmanagement.repository.UserRepository;
-import com.example.postmanagement.repository.UserRepository;
-import com.example.postmanagement.entity.User;
-import com.example.postmanagement.service.PostService;
-import com.example.postmanagement.service.FollowService;
+import com.example.learsaprk2.entity.Post;
+import com.example.learsaprk2.entity.PostResponse;
+import com.example.learsaprk2.repository.PostRepository;
+import com.example.learsaprk2.repository.UserRepository;
+import com.example.learsaprk2.repository.UserRepository;
+import com.example.learsaprk2.entity.User;
+import com.example.learsaprk2.service.PostService;
+import com.example.learsaprk2.service.FollowService;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;

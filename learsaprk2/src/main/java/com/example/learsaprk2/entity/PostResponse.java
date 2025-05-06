@@ -1,4 +1,4 @@
-package main.java.com.example.postmanagement.entity;
+package com.example.learsaprk2.entity;
 
 public class PostResponse {
 

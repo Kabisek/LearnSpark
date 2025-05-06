@@ -1,8 +1,9 @@
-package com.example.postmanagement.service;
+package com.example.learsaprk2.service;
 
-import com.example.postmanagement.entity.Post;
-import com.example.postmanagement.repository.PostRepository;
-import com.example.postmanagement.repository.UserRepository;
+import com.example.learsaprk2.entity.Post;
+import com.example.learsaprk2.entity.User;
+import com.example.learsaprk2.repository.PostRepository;
+import com.example.learsaprk2.repository.UserRepository;
 import org.springframework.stereotype.Service;
 
 import org.springframework.beans.factory.annotation.Autowired;
