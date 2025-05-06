@@ -14,13 +14,15 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.learnspark.backend.entity.Follow;
-import com.learnspark.backend.entity.FollowResponse;
-import com.learnspark.backend.entity.FollowStatus;
-import com.learnspark.backend.entity.User;
-import com.learnspark.backend.repository.FollowRepository;
-import com.learnspark.backend.repository.UserRepository;
-import com.learnspark.backend.service.FollowService;
+import com.example.learsaprk2.entity.Follow;
+import com.example.learsaprk2.entity.FollowResponse;
+import com.example.learsaprk2.entity.FollowStatus;
+import com.example.learsaprk2.entity.User;
+import com.example.learsaprk2.repository.FollowRepository;
+import com.example.learsaprk2.repository.UserRepository;
+import com.example.learsaprk2.service.FollowService;
+
+
 
 @RestController
 @RequestMapping("/api/follow")
